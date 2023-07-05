@@ -1,0 +1,322 @@
+.App {
+  margin: 0;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #858796;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+
+.right-side{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding-right: 20px;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.topnav{
+  background-color: whitesmoke;
+  height: 63px;
+  position: fixed;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-color: #dc392d!important;
+  border-bottom: 3px solid;
+  padding: 0px 12px;
+
+}
+.material-symbols-outlined{
+  font-size: 12px;
+  cursor: pointer;
+}
+.sidebar{
+  background-color:rgb(78, 115, 223);
+  background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 14rem!important;
+  bottom: 0;
+  left: 0;
+  transition: all 0.5s ease;
+  border-right: 1px solid gainsboro;
+  color: white;
+  font-weight: 500;
+  margin-top: 66px;
+}
+.side-content{
+  display: flex;
+  flex-direction: column;
+}
+.oragin-name{
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  cursor: pointer;
+}
+.border-line{
+  border-bottom:1px solid rgb(133, 135, 150);
+  margin: 0 16px;
+}
+.interfacse-main, .addon-main{
+  padding: 0px 16px;
+  color:   rgba(255, 255, 255, 0.4);
+  text-align: left;
+  padding-top: 12px;
+}
+.dashboad{
+  padding: 16px;
+  cursor: pointer;
+}
+.interfase, .addon{
+  padding-left: 0;
+  padding-top: 0;
+}
+.interfase li, .addon li{
+  color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  position: relative;
+  padding: 16px;
+  text-align: left;
+  list-style: none;
+  cursor: pointer;
+}
+.left-side, .center{
+  cursor: pointer;
+}
+.container{
+  display: flex;
+  flex-wrap: warp;
+}
+.child-container{
+  width: 200px;
+  height: 300px;
+  background-color: #4e73df;
+  border: 1px solid red;
+}
+.cont1{
+  border: 1px solid red;
+  width: 200px;
+  height: 250px;
+}
+.cont2{
+  border: 1px solid rgb(0, 0, 0);
+  width: 200px;
+  height: 250px;
+}
+.cont3{
+  border: 1px solid rgb(186, 211, 85);
+  width: 200px;
+  height: 250px;
+}
+.main-contents{
+  margin: 100px;
+  align-items: center;
+  float: right;
+}
+.top-bar{
+  display: flex;
+}
+.content{
+  margin-top: 63px;
+  margin-left:14rem !important ;
+  width: 100%;
+  text-align: center;
+}
+.inside{
+  background-color: green;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.dash-nav{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  margin-bottom: 24px ;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+  justify-content: space-between;
+  height: 4rem;
+ align-items: center;
+ margin-top: 0px;
+}
+
+.div-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space;
+}
+.dash-nav button{
+  border: none;
+  background-color: white;
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+}
+.dash-nav button:hover{
+  background-color: black;
+  color: white;
+  border-radius: 20%;
+}
+.inputdash input{
+  height: 1rem;
+  padding: 8px;
+  text-decoration: none;
+  border: none;
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+}
+.second-line{
+
+  display: inline-block;
+  flex-direction: row;
+}
+.divs{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.third-div{
+  width: 300px;
+  height: 200px;
+  background-color: #a0bbd2;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#div2{
+  background-color: #858796;
+}
+.comp-div{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.comp-div button{
+  width: 100px;
+  padding: 12px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.comp-div button:hover{
+  background-color: white;
+  color: black;
+}
+.contaner-earnings{
+  background-color: white;
+  height: 120px;
+  border-left: .25rem solid #4e73df!important;
+  border-radius:1rem;
+  margin: 1rem;
+}
+.earningbox{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 12px ;
+}
+.earning{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-right: 70px;
+}
+.earning-title{
+  color: #4e73df!important;
+  font-weight: 500!important;
+  text-transform: uppercase!important;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.earning{
+  color: #5a5c69!important;
+}
+.boxes{
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.earning-title2{
+  color:#1cc88a!important;
+  font-weight: 500!important;
+  text-transform: uppercase!important;
+  font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.earning2{
+  color: #5a5c69!important;
+}
+.contaner-earnings2{
+  background-color: white;
+  height: 120px;
+  border-left: .25rem solid #1cc88a!important;
+  border-radius:1rem;
+  margin: 1rem;
+  box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+
+}
+.signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.signin input{
+  width: 20rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: whitesmoke;
+}
+input:focus {
+  outline:none;
+}
+.signin input ::placeholder{
+ color: #a0bbd2;
+}
+.signin button{
+  width: 22rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #4e73df!important;
+  color: white;
+}
+.signupnavigate span{
+ cursor: pointer;
+ text-decoration: underline;
+ color: blue;
+}
+img{
+  width: 50rem;
+}
